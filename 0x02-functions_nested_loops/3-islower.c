@@ -1,21 +1,12 @@
 #include "main.h"
 
-
 /**
  * main - Entry point of my code,
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
-_putchar('P');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+print_alphabet_x10();
 return (0);
 }
