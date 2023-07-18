@@ -15,7 +15,6 @@ for (; n <= 98; n++)
 {
 if (n == 98)
 {
-iprintf("%d", n);
 printf("\n");
 break;
 }
