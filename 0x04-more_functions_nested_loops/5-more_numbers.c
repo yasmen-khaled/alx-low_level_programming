@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * more_numbers - print 0 - 14 ten times and
- * you can only use _putchar three times
+ * more_numbers - print 0 - 14 ten times and you
+ *              can only use _putchar three times
  *
  * Return: Always 0 (Success)
  */
 
-void mor_numbers(void)
+void more_numbers(void)
 {
 int num, row, count;
 for (row = 1; row <= 10; row++)
