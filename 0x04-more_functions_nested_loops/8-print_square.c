@@ -6,14 +6,14 @@
  * @size: is the size of the square
  *
  * Return: Always 0 (Success)
- */
+*/
 
 void print_square(int size)
 {
-int row, column;
-for (row = 1; row <= size; row++)
+int i, k;
+for (i = 1; i <= size; i++)
 {
-for (column = 1; column <= size; column++)
+for (k = 1; k  <= size; k++)
 _putchar('#');
 _putchar('\n');
 }
