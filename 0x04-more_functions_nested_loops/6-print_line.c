@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* @k: is the number of times the _ character
-* should be printed
-*
-* Description: print a straight linei
+ * print a straight line
+ *@k: the charcter of _ to print
+ *
+ * Description:  function that draws a straight line in the terminal.
 */
 
 void print_line(int k)
