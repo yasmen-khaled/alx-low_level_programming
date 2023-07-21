@@ -4,9 +4,9 @@
  * print_line function
  * @k: the charcter of _ to print
  *
- * Description:  function that draws a straight line in the terminal.
+ * Description: function that draws a straight line in the terminal.
  *
-*/
+ */
 
 void print_line(int k)
 {
