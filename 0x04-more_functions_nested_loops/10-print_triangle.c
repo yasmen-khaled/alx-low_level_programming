@@ -4,7 +4,7 @@
  * print_triangle - prints a triangle
  *
  * @t: size of the triangle
- * 
+ *
  * Return: Always 0  (Success)
  */
 
