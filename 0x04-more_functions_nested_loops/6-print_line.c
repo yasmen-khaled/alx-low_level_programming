@@ -10,12 +10,9 @@
 void print_line(int k)
 {
 int i;
-if (k <= 0)
-_putchar('\n');i
-else
+for (i = 0 ; i <= k; i++)
 {
-for (i = 1; i <= k; i++)
 _putchar('_');
-_putchar('\n');
 }
+_putchar('\n');
 }
