@@ -4,7 +4,7 @@
  * print_diagonal - function
  *
  * @l: is the number of  \  print
- * 
+ *
  */
 
 void print_diagonal(int l)
