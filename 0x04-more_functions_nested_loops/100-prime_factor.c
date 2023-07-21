@@ -11,13 +11,13 @@
 int main(void)
 {
 	long int  n = 612852475143;
-	int i = 2;
+	int i = 3;
 
 	while (i <= n)
 {
 	if (n % i == 0)
 {
-	printf("%d", i);
+	printf("%d\n", i);
 	n /= i;
 }
 	else
