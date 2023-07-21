@@ -4,7 +4,7 @@
  * print_line function
  * @k: the charcter of _ to print
  *
- * Description: function that draws a straight line in the terminal.
+ * Description:  draws a straight line in the terminal k number of times.
  *
  */
 
