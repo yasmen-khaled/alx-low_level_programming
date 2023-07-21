@@ -5,12 +5,12 @@
  *
  * @c: input for alphbet
  *
- * Return: 1 if its uppercase, 0 if not
+ * Return: 1 if its uppercase, 0 
  */
 
-int _isupper(int k)
+int _isupper(int n)
 {
-if (k >= 65 && k <= 90)
+if (n >= 65 && n <= 90)
 return (1);
 else
 return (0);
