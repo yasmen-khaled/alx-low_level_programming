@@ -16,9 +16,9 @@ for (x = 0; x < i; x++)
 {
 _putchar(' ');
 }
-_putchar('\\');
+_putchar('\');
 _putchar('\n');
 }
-if (n <= 0)
+if (l <= 0)
 _putchar('\n');
 }
