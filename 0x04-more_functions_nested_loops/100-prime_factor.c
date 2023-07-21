@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int n = 1231952;
+	long int  n = 612852475143;
 	int i = 2;
 
 	while (i <= n)
