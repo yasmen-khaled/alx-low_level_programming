@@ -3,13 +3,13 @@
 /**
  * mul - multiplies tow integers
  *
- * @a: first input
- * @b: second input
+ * @m: first input
+ * @rr: second input
  *
  * Return: return results
  */
 
-int mul(int a, int b)
+int mul(int m, int rr)
 {
-return (a * b);
+return (m * rr);
 }
