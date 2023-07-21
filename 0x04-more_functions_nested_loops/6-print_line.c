@@ -4,8 +4,8 @@
  * print_line - print a straight line
  * 
  * @k: is the number of times the _ character
- *     should be printed
- */
+ * should be printed
+*/
 
 void print_line(int k)
 {
@@ -14,7 +14,7 @@ if (k <= 0)
 _putchar('\n');
 else
 {
-for (i = 1; i <= n; i++)
+for (i = 1; i <= k; i++)
 _putchar('_');
 _putchar('\n');
 }
