@@ -22,7 +22,7 @@ else
 {
 if (m == 2 && d == 60)
 {
-printf("Invalid date: %02d/%02d/%04d\n", mo, d - 31, y);
+printf("Invalid date: %02d/%02d/%04d\n", m, d - 31, y);
 }
 else
 {
