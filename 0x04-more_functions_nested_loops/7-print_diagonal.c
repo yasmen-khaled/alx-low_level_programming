@@ -2,9 +2,9 @@
 
 /**
  * print_diagonal - function
- *
  * @l: is the number of  \  print
  *
+ * Description: draws a diagonal line on the terminal.
  */
 
 void print_diagonal(int l)
