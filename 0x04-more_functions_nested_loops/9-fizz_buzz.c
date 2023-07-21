@@ -8,23 +8,25 @@
  *
  */
 
-int main(void)
+int main()
 {
 int i;
 for (i = 1; i <= 100; i++)
 {
-if (i % 3 == 0 && !(i % 5 == 0))
-printf("Fizz");
-else if (i % 5 == 0 && !(i % 5 == 0))
-printf("Buzz");
-else if (i % 3 == 0 && i % 5 == 0)
-printf("FizzBuzz");
+
+if (i % 3 == 0 && i % 5 == 0)
+{
+rintf("FizzBuzz\n");
+}
+else if (i % 3 == 0){
+printf("Fizz\n");
+}
+else if (i % 5 == 0){
+printf("Buzz\n");
+}
 else
-printf("%d", i);
-if (i != 100)
-printf(" ");
-else
-printf("\n");
+{
+printf("%d\n", i);
 }
 return (0);
 }
