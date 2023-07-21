@@ -13,7 +13,6 @@ n = 0;
 /*while (n < 10)*/
 /*{*/
 /*putchar(n);*/
-/*}*/
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
