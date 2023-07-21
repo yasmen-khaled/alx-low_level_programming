@@ -3,20 +3,20 @@
 /**
  * print_diagonal - function
  *
- * @n: is the number of  \  print
+ * @l: is the number of  \  print
  * 
  */
 
-void print_diagonal(int n)
+void print_diagonal(int l)
 {
-int postn, space;
-if (n <= 0)
+int i, x;
+if (l <= 0)
 _putchar('\n');
 else
 {
-for (postn = 1; space <= n; postn++)
+for (i = 1; x <= l; i++)
 {
-for (space = 1; space <= postn; space++)
+for (x = 1; x <= i; x++)
 _putchar(' ');
 _putchar(92);
 _putchar('\n');
