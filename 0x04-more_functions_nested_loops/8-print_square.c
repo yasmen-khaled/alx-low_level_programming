@@ -3,18 +3,19 @@
 /**
  * print_square - print a square using the character #
  *
- * @size: is the size of the square
+ * @s: is the size of the square
  *
  * Return: Always 0 (Success)
 */
 
-void print_square(int size)
+	void print_square(int s)
+
 {
-int i, k;
-for (i = 1; i <= size; i++)
+	int i, k;
+	for (i = 1; i <= s; i++)
 {
-for (k = 1; k  <= size; k++)
-_putchar('#');
-_putchar('\n');
+	for (k = 1; k  <= s; k++)
+	_putchar('#');
+	_putchar('\n');
 }
 }
