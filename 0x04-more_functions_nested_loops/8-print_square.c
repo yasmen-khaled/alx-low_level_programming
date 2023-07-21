@@ -3,20 +3,20 @@
 /**
  * print_square - print a square using the character #
  *
- * @s: is the size of the square
+ * @size: is the size of the square
  *
  * Return: Always 0 (Success)
  *
 */
 
-void print_square(int s)
+void print_square(int size)
 {
 int i, k;
 
-for (i = 1; i <= s; i++)
+for (i = 1; i <= size; i++)
 {
 
-for (k = 1; k <= s; k++)
+for (k = 1; k <= size; k++)
 {
 _putchar('#');
 }
