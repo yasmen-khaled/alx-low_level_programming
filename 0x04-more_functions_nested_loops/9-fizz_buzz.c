@@ -4,11 +4,12 @@
  * main - print numbers 1 - 100 followed by a new line
  * Return: Always 0 (Success)
  *
- *Describe: prints the numbers from 1 to 100, followed by a new line.
+ * Describe: prints the numbers from 1 to 100, followed by a new line.
  *
  */
 
 int main(void)
+
 {
 int i;
 
@@ -24,7 +25,7 @@ printf("Buzz ");
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
 else
 {
