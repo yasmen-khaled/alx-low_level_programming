@@ -11,14 +11,20 @@
 
 void print_square(int size)
 {
-int i, x;
-for (i = 1; i <= size; i++)
+if (size <= 0)
 {
-for (x = 1; x <= size; x++)
+_putchar('\n');
+}
+else
+{
+int i, x;
+for (i = 0; i < size; i++)
+{
+for (x = 0; x < size; x++)
 {
 _putchar('#');
 }
 _putchar('\n');
 }
-return (0);
+}
 }
