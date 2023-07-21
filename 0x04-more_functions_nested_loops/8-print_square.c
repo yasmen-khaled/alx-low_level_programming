@@ -10,16 +10,18 @@
 */
 
 void print_square(int s)
-
 {
 int i, k;
+
 for (i = 1; i <= s; i++)
 {
-for (k = 1; k  <= s; k++)
+
+for (k = 1; k <= s; k++)
 {
 _putchar('#');
 }
 _putchar('\n');
+
 }
 return (0);
 }
