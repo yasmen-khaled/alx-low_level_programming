@@ -7,12 +7,12 @@
 
 int main(void)
 {
-int i;
+int n;
 printf("Infinite loop incoming :(\n");
-i = 0;
-/*while (i < 10)*/
+n = 0;
+/*while (n < 10)*/
 /*{*/
-/*putchar(i);*/
+/*putchar(n);*/
 /*}*/
 printf("Infinite loop avoided! \\o/\n");
 return (0);
