@@ -1,23 +1,17 @@
 #include "main.h"
 
 /**
- * main - pointer
+ * reset_to_98 - functin that takes a pointer to an int as prameter points
  *
- * Return: Always return 0 (seccess)
+ * @ptr: pointer input
+ *
+ * Return: ptr
  *
  * Description: functin that takes a pointer to an int as prameter points to 98
  */
 
-int main(void)
+void reset_to_98(int *ptr)
 {
-	int x = 98;
-	int *ptr = &x;
+	*ptr = 98;
 
-	_putchar("befor update: %d\n", *ptr);
-
-	updateVal(ptr);
-
-	_putchar("After update : %d\n", *ptr);
-
-	return (0);
 }
