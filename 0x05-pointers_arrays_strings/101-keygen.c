@@ -22,7 +22,7 @@ int main(void)
 	for (x = 0; x < 100; x++)
 	{
 	pdw[x] = rand() % 78;
-	sum += (pass[x] + '0');
+	sum += (pdw[x] + '0');
 	putchar(pdw[x] + '0');
 	if ((2772 - sum) - '0' < 78)
 	{
