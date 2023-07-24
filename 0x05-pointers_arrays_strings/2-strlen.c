@@ -3,12 +3,12 @@
 /**
  * _strlen - returns the lenght of a string
  *
- * @s: string
+ * @ptr: string
  *
  * Return: length
  */
 
-int _strlen(char *s)
+int _strlen(char *ptr)
 {
 int length = 0;
 while (*ptr != '\0')
