@@ -3,11 +3,16 @@
 /**
  * _puts - print a string, followed be new line
  *
- * @ptr: string to print
+ * @str: string to print
  *
  */
 
-void _puts(char *ptr)
+void _puts(char *str)
 {
-	_putchar("%s\n", ptr);
+	while (*str != '\0')
+	{
+	_putchar(*str++);
+	}
+	_putchar('\n');
+
 }
