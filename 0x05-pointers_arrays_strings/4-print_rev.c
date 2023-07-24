@@ -9,23 +9,11 @@
 
 void print_rev(char *s)
 {
-	int long  length = 0;
-	char x;
-
-	while (*s != '\0')
-	{
-	long length++;
-	s++;
-	}
-	s--;
-	for (x = long length; x > 0; x--)
-	i{
-	_putchar(*s);
-	s--;
-	}
-
-	_putchar('\n');
-
+int  length = strlen(s);
+for (int i = length - 1; i >= 0; i--)
+{
+_putchar("%c", *(s + i));
+}
+_putchar('\n');
 
 }
-
