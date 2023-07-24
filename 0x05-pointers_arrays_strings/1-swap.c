@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * swap - functin that swaps the values of tow integers
+ * swap_int - swaps the values of tow integers
  *
- * @ptr: pointer input
- * @x: pointer input
+ * @a: pointer input
+ * @b: pointer input
  *
  * Description: functin that swaps the values of tow integers
  */
 
-void swap(int *ptr, int *x)
+void swap_int(int *a, int *b)
 {
-	int valu = *ptr;
-	*ptr = *x;
-	*x = valu;
+	int x = *a;
+	*a = *b;
+	*b = x;
 
 }
