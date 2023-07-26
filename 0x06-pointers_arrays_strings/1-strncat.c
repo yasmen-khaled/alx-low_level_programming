@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *  _strncat - concatenates tow strings
- *
+ * _strncat - concatenates tow strings
+ * using at most n bytes from src
  * @dest: input value
  * @src: input value
  * @n: input value
@@ -16,6 +16,7 @@ char *strncat(char *dest, char *src, int n)
 	int x, k;
 
 	x = 0;
+
 	while (dest[x] != '\0')
 	{
 	x++;
@@ -28,5 +29,6 @@ char *strncat(char *dest, char *src, int n)
 	k++;
 	}
 	dest[x] = '\0';
+
 	return (dest);
 }
