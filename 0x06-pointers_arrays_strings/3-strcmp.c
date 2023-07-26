@@ -8,7 +8,7 @@
  * Return: s1[x] - s2[x]
  */
 
-int _stcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 int x;
 x = 0;
