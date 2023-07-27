@@ -2,23 +2,23 @@
 
 /**
  * print_number - print chars
- * @j: integer
+ * @n: integer
  *
  *
  *
  * Return: 0
  */
 
-void print_number(int j)
+void print_number(int n)
 {
 	unsigned int x;
 
-	x = j;
+	x = n;
 
-	if (j < 0)
+	if (n < 0)
 	{
 		_putchar('-');
-		x = -j;
+		x = -n;
 	}
 
 	if (x / 10 != 0)
