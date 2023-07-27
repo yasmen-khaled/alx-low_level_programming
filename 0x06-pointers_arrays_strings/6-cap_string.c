@@ -11,21 +11,28 @@
 char *cap_string(char *str)
 {
 int x = 0;
+int c = 1;
 
-	while (str[x])
+	while (str[x] != '\0')
 	{
-	while (!(str[x] >= 'a' && str[x] <= 'z'))
-	x++;
-	if (str[x - 1] == '' ||
-	str[x - 1] == '\t' || str[x - 1] == '\n' ||
-	str[x - 1] == ',' || str[x - 1] == ';' ||
-	str[x - 1] == '.' || str[x - 1] == '!' ||
-	str[x - 1] == '?' || str[x - 1] == "" ||
-	str[x - 1] == '(' || str[x - 1] == ')' ||
-	str[x - 1] == '{' || str[x - 1] == '}' || x == 0)
+		char y = str[x];
 
-	str[x] -= 32;
-	x++
+	if (c && (y >= 'a' && y <= 'z'))
+	{
+	y = y - 'a' + 'A';
+	c = 0;
+}
+else if (y  == ' ' || y  == '\t' || y  == '\n' ||
+	y  == ',' || y == ';' ||
+	y == '.' || y  == '!' ||
+	y  == '?' || y == '"' ||
+	y == '(' || y == ')' ||
+	y == '{' || y == '}') {
+	c = 1;
 	}
+	str[x] = y;
+	x++;
+	}
+
 	return (str);
 }
