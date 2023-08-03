@@ -8,6 +8,7 @@ int actual_prime(int n, int x);
  *
  * Return: 1 if n is a prime number, 0 if not
  */
+
 int is_prime_number(int n)
 {
 	if (n <= 1)
@@ -22,6 +23,7 @@ int is_prime_number(int n)
  *
  * Return: 1 if n is prime, 0 if not
  */
+
 int actual_prime(int n, int x)
 {
 	if (x == 1)
@@ -29,5 +31,4 @@ int actual_prime(int n, int x)
 	if (n % x == 0 && x > 0)
 		return (0);
 	return (actual_prime(n, x - 1));
-}
 }
