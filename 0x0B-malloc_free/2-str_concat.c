@@ -28,20 +28,20 @@ char *str_concat(char *s1, char *s2)
 		y++;
 	con = malloc(sizeof(char) * (x + y + 1));
 
-	if (conct == NULL)
+	if (con == NULL)
 		return (NULL);
 	x = y = 0;
 	while (s1[x] != '\0')
 	{
-		conct[x] = s1[x];
+		con[x] = s1[x];
 		x++;
 	}
 
 	while (s2[y] != '\0')
 	{
-		conct[x] = s2[y];
+		con[x] = s2[y];
 		x++, y++;
 	}
-	conct[x] = '\0';
+	con[x] = '\0';
 	return (con);
 }
