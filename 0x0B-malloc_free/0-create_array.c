@@ -1,21 +1,27 @@
-#include <stdlib.h>
 #include "main.h"
-
+#include <stdlib.h>
 /**
- * *malloc_memo - allocate  using malloc
- * @i: number of bytes
+ * create_array - create array of size
+ * @size: size of array
+ * @c: assign
  *
- * Return: p
+ * Description: size and assign char c
+ *
+ * Return: s to array if null fail
+ *
  */
 
-void *malloc_memo(unsigned int i)
+
+char *create_array(unsigned int size, char c)
 {
-	void *p;
+	char *s;
+	unsigned int x;
 
-	p = malloc(i);
+	s = malloc(sizeof(char) * size);
+	if (size == 0 || s == NULL)
+		return (NULL);
 
-	if (p == NULL)
-		exit(98);
-
-	return (p);
+	for (x = 0; x < size; x++)
+		s[x] = c;
+	return (s);
 }
