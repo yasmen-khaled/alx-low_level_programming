@@ -5,7 +5,7 @@
  * _strlen - length of a string
  * @s: string
  *
- * Return: string
+ * Return: x
  */
 
 
@@ -43,7 +43,7 @@ char *_strcpy(char *dest, char *src)
 		y++;
 	}
 
-	for (x = 0; x < len; x++)
+	for (x = 0; x < y; x++)
 	{
 		dest[x] = src[x];
 	}
