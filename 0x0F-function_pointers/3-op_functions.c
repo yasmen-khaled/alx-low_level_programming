@@ -1,4 +1,3 @@
-
 #include "3-calc.h"
 
 int op_add(int c, int d);
