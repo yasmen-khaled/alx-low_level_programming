@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - prints 
+ * main - prints
  * @argc: number
- * @argv: array 
+ * @argv: array
  *
  * Return: Always 0 (Success)
  */
