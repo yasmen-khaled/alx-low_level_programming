@@ -7,6 +7,8 @@
  * @h: pointer
  *
  * return :lama
+ *
+ * Description : printing elments of linked lists  node str
  **/
 
 size_t print_list(const list_t *h)

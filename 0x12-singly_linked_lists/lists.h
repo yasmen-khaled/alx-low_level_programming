@@ -6,7 +6,8 @@
  * @str:string
  * @x:length
  * @n: next node
- * Description: singgly linked list
+ *
+ * Description: singly linked list
  */
 
 typedef struct list_s
