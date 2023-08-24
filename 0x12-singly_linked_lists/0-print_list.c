@@ -6,21 +6,21 @@
  *
  * @h: pointer
  *
- * return : v
+ * return :lama
  **/
 
 size_t print_list(const list_t *h)
 {
-	size_t v = 0;
+	size_t lama = 0;
 
 	while (h)
 	{
 		if (!h->str)
 			printf("[0] (nil)\n");
 		else
-	printf("[%u] %s\n", h->x, h->str);
-		h = h->n;
-		v++;
+	printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
+		lama++;
 	}
-	return (v);
+	return (lama);
 }
