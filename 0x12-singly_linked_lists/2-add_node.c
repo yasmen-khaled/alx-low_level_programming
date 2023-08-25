@@ -8,14 +8,14 @@
  * @head: pointer
  * @str: string
  *
- * return : head pointer
+ * Return: head pointer or NULL if its  fails
  */
 
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *node;
-	unsigned len = 0;
-	
+	unsigned int len = 0;
+
 	while (str[len])
 		len++;
 
