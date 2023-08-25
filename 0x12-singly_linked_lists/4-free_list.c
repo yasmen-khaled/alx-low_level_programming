@@ -1,4 +1,4 @@
-#include <stdlib>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -9,12 +9,12 @@
 
 void free_list(list_t *head)
 {
-	list t *space;
+	list_t *space;
 
 	while (head)
 	{
 	space = head->next;
-	free(head->str;
+	free(head->str);
 	free(head);
 	head = space;
 }
