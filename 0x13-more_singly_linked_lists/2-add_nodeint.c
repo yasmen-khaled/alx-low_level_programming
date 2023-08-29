@@ -4,7 +4,7 @@
  *add_nodeint -  function that adds a new node at the beginning
  *
  *@head:pointer
- *
+ *@n:intger
  *
  * Return:node
  */
@@ -22,4 +22,5 @@ node->next = *head;
 *head = node;
 
 return (node);
+
 }
