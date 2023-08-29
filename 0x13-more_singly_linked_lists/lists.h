@@ -7,8 +7,8 @@
 
 typedef struct listint_s
 {
-	int noob;
-	struct listint_s *oth;
+	int n;
+	struct listint_s *next;
 }
 
 listint_t;
