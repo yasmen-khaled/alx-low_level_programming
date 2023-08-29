@@ -1,7 +1,6 @@
 #include "lists.h"
-
 /**
- *print_lisint - a function that prints all the elements.
+ *lisint_len -function that returns the number of elements in a linked.
  *@h: pointer
  *
  *
@@ -10,19 +9,14 @@
  * description : Write a function that prints all the elements
  */
 
-size_t print_listint(const listint_t *h)
-
+size_t listint_len(const listint_t *h)
 {
 	size_t no = 0;
-
 	while (h)
 	{
-		printf("%d\n", h->n);
+	no++;
 
-			no++;
-
-				h = h->next;
+	h = h->next;
 	}
-
 	return (no);
 }
