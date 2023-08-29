@@ -2,7 +2,7 @@
 
 /**
  *print_listint-a function that prints all the elements.
- *@h: pointer
+ *@h: linked list
  *
  *
  * Return: no
@@ -17,6 +17,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h)
 	{
+	printf("%d\n", h->n);
 	no++;
 
 	h = h->next;
