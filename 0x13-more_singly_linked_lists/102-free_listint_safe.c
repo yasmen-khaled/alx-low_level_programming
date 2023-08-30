@@ -15,26 +15,26 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *tee;
 
 	if (!h || !*h)
-		return (0);
+	return (0);
 
 	while (*h)
 	{
-		v = *h - (*h)->next;
-		if (v > 0)
-		{
-			tee = (*h)->next;
-			free(*h);
-			*h = tee;
-			x++;
-		}
-		else
-		{
-			free(*h);
-			*h = NULL;
-			x++;
-			break;
-		}
+	v = *h - (*h)->next;
+	if (v > 0)
+	{
+	tee = (*h)->next;
+	free(*h);
+	*h = tee;
+	x++;
 	}
+	else
+	{
+	free(*h);
+	*h = NULL;
+	x++;
+	break;
+}
+}
 
 	*h = NULL;
 
