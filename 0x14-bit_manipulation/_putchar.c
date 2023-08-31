@@ -1,11 +1,12 @@
 #include "main.h"
-#include <unistd>
+#include <unistd.h>
+
 /*
  * _putchar- charcacter
  *
  * @c: print
  *
- *Return:1
+ *Return:1 or -1
  */
 
  int _putchar(char c)
