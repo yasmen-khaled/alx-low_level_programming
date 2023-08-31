@@ -7,15 +7,13 @@
  *
  * Return: conv
  */
-
-
 unsigned int binary_to_uint(const char *b)
 {
 	int numb;
 	unsigned int conv = 0;
 
 	if (!b)
-		return (0);
+	return (0);
 
 	for (numb = 0; b[numb]; numb++)
 	{
