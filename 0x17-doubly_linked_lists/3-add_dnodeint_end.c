@@ -3,12 +3,12 @@
  * add_dnodeint_end - adds a new node at the end of list
  *@head: pointer
  *@n: value
- *Return: num
+ *Return: new
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-	dlistint_t *x;
+	dlistint_t *h;
 	dlistint_t *new;
 
 	new = malloc(sizeof(dlistint_t));
@@ -18,13 +18,13 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	new->n = n;
 	new->next = NULL;
 
-x = *head;
+	x = *head;
 
 	if (x != NULL)
 	{
 		while (x->next != NULL)
 			x = x->next;
-		h->next = new;
+		x->next = new;
 	}
 	else
 	{
