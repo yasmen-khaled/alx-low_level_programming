@@ -1,7 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdbool.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 #include <stdlib.h>
+#include <signal.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <linux/limits.h>
 
 int _putchar(char c);
 int _islower(int c);
