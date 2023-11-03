@@ -4,7 +4,7 @@
  * hash_table_set - Add or update
  * @ht:hash table.
  * @key:key to add
- * @value:value 
+ * @value:value
  *
  * Return:- 0 Otherwise - 1.
  */
