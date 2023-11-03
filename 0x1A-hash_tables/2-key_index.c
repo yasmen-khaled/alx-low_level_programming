@@ -2,7 +2,7 @@
 
 /**
  * key_index -index
- * @key:key to get the index 
+ * @key:key to get the index
  * @size:size of array
  * Return: key.
  */
