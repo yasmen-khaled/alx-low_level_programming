@@ -8,7 +8,7 @@
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *htt;
-	unsigned long intx;
+	unsigned long int x;
 
 	htt = malloc(sizeof(hash_table_t));
 	if (!htt)
