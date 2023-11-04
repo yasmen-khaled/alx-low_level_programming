@@ -9,10 +9,10 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	hash_table_t *ht;
+	hash *ht;
 	unsigned long int x;
 
-	ht = malloc(sizeof(hash_table_t));
+	ht = malloc(sizeof(hash));
 	if (ht == NULL)
 		return (NULL);
 
@@ -21,7 +21,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (ht->array == NULL)
 		return (NULL);
 	for (x = 0; x < size; x++)
-		ht->array[i] = NULL;
+		ht->array[x] = NULL;
 
 	return (ht);
 }
