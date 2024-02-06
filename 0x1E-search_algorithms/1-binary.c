@@ -11,24 +11,24 @@
   * Description: Prints the [sub]array being searched after each change.
   */
 
-int binary_search(int *array, size_t size, int value) 
+int binary_search(int *array, size_t size, int value)
 {
 size_t left =  0;
 size_t right = size -  1;
 
-while (right >= left) 
+while (right >= left)
 {
 size_t mid = left + (right - left) /  2;
 
-if (array[mid] == value) 
+if (array[mid] == value)
 {
 return (mid);
 }
-if (array[mid] > value) 
+if (array[mid] > value)
 {
 right = mid -  1;
 }
-else 
+else
 {
 	left = mid +  1;
 }
