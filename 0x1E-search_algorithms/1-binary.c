@@ -23,7 +23,7 @@ while (right >= left)
 
 	printf("Searching in array: ");
 
-	for (i = left; i < mid; ++i) 
+	for (i = left; i < right; ++i) 
 	{
 		printf("%d ", array[i]);
 	}
