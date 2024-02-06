@@ -22,7 +22,7 @@ size_t mid = left + (right - left) /  2;
 
 if (array[mid] == value) 
 {
-return mid;
+return (mid);
 }
 if (array[mid] > value) 
 {
