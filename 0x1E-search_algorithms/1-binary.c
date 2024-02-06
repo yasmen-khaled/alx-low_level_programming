@@ -27,7 +27,9 @@ return mid;
 if (array[mid] > value) 
 {
 right = mid -  1;
-} else {
+}
+else 
+{
 	left = mid +  1;
 }
  }
