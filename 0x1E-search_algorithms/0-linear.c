@@ -4,8 +4,7 @@
 #include <unistd.h>
 
 /**
- * linear_search - searches for a value in an array of
- * integers using the Linear
+ * linear_search - searches for a value in an array
  * @array: array
  * @size: size
  * @value: value
